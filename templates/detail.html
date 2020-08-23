@@ -11,12 +11,15 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    {% for item in object_list %}
-    <ul>
-        <li>{{ item.title }}</li>
-        <li>{{ item.memo }}</li>
-    </ul>
-    {% endfor %}
+
+    <div class="alert alert-primary" role="alert">
+        {{ object.title }}
+    </div>
+    <div class="alert alert-primary" role="alert">
+        {{ object.memo }}
+    </div>
+
+
 
 
     <!-- Optional JavaScript -->
